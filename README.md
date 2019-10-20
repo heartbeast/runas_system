@@ -16,3 +16,6 @@ xxx:# /data/runas_system -p 1314 id
 ```
 
 You will need root first, of course.
+
+# Compilation
+Compile in AOSP...
