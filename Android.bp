@@ -1,0 +1,15 @@
+cc_binary {
+    name: "runas_system",
+
+    srcs: ["runas_system.c"],
+
+    shared_libs: [
+        "libselinux",
+    ],
+
+    cflags: [
+        "-DXP_UNIX",
+        "-Wno-unused-parameter",
+        "-Werror",
+    ],
+}
